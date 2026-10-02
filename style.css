@@ -1,0 +1,19 @@
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 16px 32px;
+border-bottom: 10px solid var(--line);
+border-top: 10px solid var(--line);
+}
+
+.links {
+display: flex;
+gap: 24px;
+}.hero {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 40px;
+padding: 60px 32px;
+}
