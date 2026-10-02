@@ -1,4 +1,5 @@
 .navbar {
+background-image: url('igitera.png');
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -10,10 +11,25 @@ border-top: 10px solid var(--line);
 .links {
 display: flex;
 gap: 24px;
-}.hero {
-display: flex;
+}
+
+.hero-text {
+display: center;
 justify-content: space-between;
 align-items: center;
 gap: 40px;
+margin-left: 300px;
 padding: 60px 32px;
 }
+
+.hero-image {
+    display: grid;
+    gap: 20px;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+}
+.image-container {
+  width: 100%; 
+  height: auto;
+}
+
