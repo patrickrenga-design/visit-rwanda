@@ -149,7 +149,7 @@ padding: 60px 32px;
 
 
   .image-side {
-    height: 300px; /* Gives the image fixed height on mobile */
+    height: 300px;
     width: 100%;
   }
   
@@ -157,4 +157,16 @@ padding: 60px 32px;
     width: 100%;
     padding: 30px 20px;
   }
+.tourism {
+    display: flex;
+    gap: 30px;
+    grid-template-columns: 4 1fr ;
+    align-items: stretch;
+    margin: 100px;
+}
+
+.Gorilla {
+  width: 1px;
+  height:50px;
+  gap:20px;
 }
