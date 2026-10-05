@@ -239,3 +239,11 @@ padding: 60px 32px;
     margin-bottom: 100px;
 }
 
+.partnership {
+
+    display: flex;
+    grid-template-columns:repeat(4, 1fr);
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
