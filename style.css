@@ -1,24 +1,37 @@
 .navbar {
-background-image: url('igitera.png');
-display: flex;
-justify-content: space-between;
+
+background-color: blueviolet;
 align-items: center;
+font-size: 32px;
 padding: 16px 32px;
-border-bottom: 10px solid var(--line);
-border-top: 10px solid var(--line);
+
 }
 
-.links {
+.links{
 display: flex;
-gap: 24px;
+justify-content: center;
+gap: 160px;
+
 }
+.links a {
+  text-decoration: none;
+ 
+  font-size: 16px;
+  
+}
+
+
+
+
+
+
 
 .hero-text {
 display: center;
 justify-content: space-between;
 align-items: center;
 gap: 40px;
-margin-left: 300px;
+margin-left: 700px;
 padding: 60px 32px;
 }
 
@@ -159,14 +172,60 @@ padding: 60px 32px;
   }
 .tourism {
     display: flex;
-    gap: 30px;
+    align-items: center;
+   
     grid-template-columns: 4 1fr ;
     align-items: stretch;
     margin: 100px;
 }
 
 .Gorilla {
-  width: 1px;
+  width: -0.005px;
   height:50px;
-  gap:20px;
+  gap:10px;
 }
+
+.Culture {
+  width: -0.005px;
+  height:50px;
+  gap:10px;
+}
+
+.canopy {
+  width: -0.005px;
+  height:50px;
+  gap:10px;
+}
+
+.Palace {
+  width: -0.005px;
+  height:50px;
+  gap:10px;
+}
+
+.subheading {
+  align-items: center;
+  display: center;
+  font-size: 30px;
+
+}
+
+.Investment {
+   display: center;
+   justify-content: space-between;
+   align-items: center;
+   gap: 40px;
+   margin-left: 700px;
+   padding: 60px 32px;
+}
+
+.Meet {
+   display: center;
+   justify-content: space-between;
+   align-items: center;
+   gap: 40px;
+   margin-left: 700px;
+   padding: 60px 32px;
+}
+
+
