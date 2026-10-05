@@ -43,10 +43,14 @@ padding: 60px 32px;
     align-items: stretch;
     margin: 100px;
 }
-.image-container {
-  width: 600%; 
-  height: 100%;
+
+.rift-section {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    /* align-items:center; */
+    align-items: stretch;
 }
+
 
 .image-container img {
   width: 100%;
@@ -58,8 +62,6 @@ padding: 60px 32px;
 .text-container{
   display: flex;
   grid-template-columns: 1fr 1fr;
-  width: 80%;
-  height: 100%;
   background-color: gray; 
 }
 
@@ -76,14 +78,6 @@ padding: 60px 32px;
   min-height: 100vh;
 }
 
-.image-container {
-  flex: 1;
-  background-image: url('igitera.png');
-  background-size: cover;
-  background-position: center;
-  width: 1000px;
-  height: 500px;
-}
 
 .text-container {
   flex: 1; /* Takes exactly 50% width */
@@ -174,9 +168,10 @@ padding: 60px 32px;
     display: flex;
     align-items: center;
    
-    grid-template-columns: 4 1fr ;
+    grid-template-columns:repeat(4, 1fr);
     align-items: stretch;
-    margin: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .Gorilla {
@@ -228,4 +223,19 @@ padding: 60px 32px;
    padding: 60px 32px;
 }
 
+.arrow-down {
+  transform: rotate(90deg);
+  text-align: center;
+  color: #0b1a30;
+}
+
+.partner {
+    display: flex;
+    align-items: center;
+   
+    grid-template-columns:repeat(4, 1fr);
+    align-items: stretch;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
